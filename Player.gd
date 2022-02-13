@@ -41,6 +41,7 @@ func _process(delta):
 func _on_Player_body_entered(body):
 		hitcount -= 1
 		emit_signal("hit")
+		body.hide()
 		if hitcount == 0:
 			hide() # Player disappears after being hit.
 			# Must be deferred as we can't change physics properties on a physics callback.
