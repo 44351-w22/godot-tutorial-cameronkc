@@ -1,6 +1,19 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://HUD.gd" type="Script" id=1]
+[ext_resource path="res://fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 48
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 32
+font_data = ExtResource( 2 )
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource( 1 )
@@ -10,10 +23,11 @@ anchor_left = 0.454
 anchor_top = 0.123
 anchor_right = 0.454
 anchor_bottom = 0.123
-margin_left = -48.92
-margin_top = -116.56
-margin_right = 121.08
-margin_bottom = 6.43999
+margin_left = 3.08
+margin_top = -76.56
+margin_right = 65.08
+margin_bottom = -25.56
+custom_fonts/font = SubResource( 1 )
 text = "0"
 align = 1
 valign = 1
@@ -26,23 +40,24 @@ anchor_left = 0.5
 anchor_top = 0.393
 anchor_right = 0.921
 anchor_bottom = 0.5
-margin_left = -52.0
-margin_top = -203.96
-margin_right = -125.08
-margin_bottom = -233.0
+margin_left = -195.0
+margin_top = -147.96
+margin_right = 27.92
+margin_bottom = -100.0
+custom_fonts/font = SubResource( 2 )
 text = "DODGE THE CREEPS!"
 align = 1
 autowrap = true
-percent_visible = -0.0666667
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="StartButton" type="Button" parent="."]
-margin_left = 235.0
-margin_top = 253.0
-margin_right = 276.0
-margin_bottom = 273.0
+margin_left = 175.0
+margin_top = 335.0
+margin_right = 335.0
+margin_bottom = 398.0
+custom_fonts/font = SubResource( 3 )
 text = "start"
 __meta__ = {
 "_edit_use_anchors_": false

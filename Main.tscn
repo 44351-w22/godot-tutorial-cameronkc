@@ -26,7 +26,7 @@ wait_time = 2.0
 one_shot = true
 
 [node name="StartPosition" type="Position2D" parent="."]
-position = Vector2( 240, 450 )
+position = Vector2( 256, 448 )
 
 [node name="HUD" parent="." instance=ExtResource( 4 )]
 
