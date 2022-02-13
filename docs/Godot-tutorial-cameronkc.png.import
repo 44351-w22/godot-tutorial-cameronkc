@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Godot-tutorial-cameronkc.png-a4e84e528a301863824514cc8dbe06e4.stex"
+path="res://.import/Godot-tutorial-cameronkc.png-896e49dacde89d3ab0d3689d86154988.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Godot-tutorial-cameronkc.png"
-dest_files=[ "res://.import/Godot-tutorial-cameronkc.png-a4e84e528a301863824514cc8dbe06e4.stex" ]
+source_file="res://docs/Godot-tutorial-cameronkc.png"
+dest_files=[ "res://.import/Godot-tutorial-cameronkc.png-896e49dacde89d3ab0d3689d86154988.stex" ]
 
 [params]
 

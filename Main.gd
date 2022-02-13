@@ -7,7 +7,7 @@ func _ready():
 	randomize()
 
 func _on_Player_hit():
-	pass # Replace with function body.
+	game_over()
 
 func game_over():
 	$ScoreTimer.stop()

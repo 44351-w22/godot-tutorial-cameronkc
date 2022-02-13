@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Godot-tutorial-cameronkc.apple-touch-icon.png-3315854d0a46c7c3c051a61ab531c4a8.stex"
+path="res://.import/Godot-tutorial-cameronkc.apple-touch-icon.png-760bd26064f108e85fcb8cb2637da55c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Godot-tutorial-cameronkc.apple-touch-icon.png"
-dest_files=[ "res://.import/Godot-tutorial-cameronkc.apple-touch-icon.png-3315854d0a46c7c3c051a61ab531c4a8.stex" ]
+source_file="res://docs/Godot-tutorial-cameronkc.apple-touch-icon.png"
+dest_files=[ "res://.import/Godot-tutorial-cameronkc.apple-touch-icon.png-760bd26064f108e85fcb8cb2637da55c.stex" ]
 
 [params]
 
