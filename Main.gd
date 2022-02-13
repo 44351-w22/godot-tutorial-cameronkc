@@ -2,12 +2,17 @@ extends Node
 
 export(PackedScene) var mob_scene
 var score
+var hitcount = 3
 
 func _ready():
 	randomize()
-
+	
 func _on_Player_hit():
-	game_over()
+	hitcount -= 1
+	$HUD.update_hit(hitcount)
+	if hitcount == 0:
+		game_over()
+		hitcount =3
 
 func game_over():
 	$ScoreTimer.stop()
@@ -15,10 +20,12 @@ func game_over():
 	$HUD.show_game_over()
 
 func new_game():
+	hitcount = 3
 	score = 0
 	$Player.start($StartPosition.position)
 	$StartTimer.start()
 	$HUD.update_score(score)
+	$HUD.update_hit(hitcount)
 	$HUD.show_message("Get Ready")
 
 

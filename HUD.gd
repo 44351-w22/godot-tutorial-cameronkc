@@ -28,3 +28,6 @@ func _on_StartButton_pressed():
 
 func _on_MessageTimer_timeout():
 	$Message.hide()
+	
+func update_hit(hitscore):
+	$HitLabel.text = str(hitscore)
